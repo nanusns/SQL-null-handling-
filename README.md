@@ -14,6 +14,11 @@ VALUES
 ('Neha', NULL, NULL),
 ('Ravi', 'Indore', 'Indore');
 
+CREATE TABLE test_values (
+    id SERIAL PRIMARY KEY,
+    value_text VARCHAR(20)
+);
+
 INSERT INTO test_values (value_text)
 VALUES
 ('123'),
