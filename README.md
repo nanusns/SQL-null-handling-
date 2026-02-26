@@ -13,3 +13,12 @@ VALUES
 ('Priya', 'Bhopal', NULL),
 ('Neha', NULL, NULL),
 ('Ravi', 'Indore', 'Indore');
+
+INSERT INTO test_values (value_text)
+VALUES
+('123'),
+('456'),
+('abc'),
+('78x'),
+('900'),
+(NULL);
